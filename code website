@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Lưu Niệm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Website Lưu Niệm</h1>
+        <nav>
+            <a href="#home">Trang chủ</a>
+            <a href="#gallery">Bộ sưu tập</a>
+            <a href="#memories">Ghi chú</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Chào mừng bạn đến với trang web lưu niệm!</h2>
+        <p>Hãy lưu giữ những khoảnh khắc quý giá tại đây.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Bộ Sưu Tập Ảnh</h2>
+        <div class="gallery">
+            <!-- Thêm ảnh vào đây -->
+            <img src="memory1.jpg" alt="Lưu niệm 1">
+            <img src="memory2.jpg" alt="Lưu niệm 2">
+        </div>
+    </section>
+
+    <section id="memories">
+        <h2>Ghi chú và Câu chuyện</h2>
+        <textarea placeholder="Viết ghi chú của bạn ở đây..." rows="6" cols="60"></textarea>
+        <button>Lưu ghi chú</button>
+    </section>
+
+    <footer>
+        <p>© 2024 Website Lưu Niệm - Tất cả quyền được bảo vệ</p>
+    </footer>
+</body>
+</html>
